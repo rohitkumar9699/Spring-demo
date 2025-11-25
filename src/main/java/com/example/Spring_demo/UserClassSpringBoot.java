@@ -13,13 +13,13 @@ public class UserClassSpringBoot {
     public UserClassSpringBoot() {
     }
 
-    public UserClassSpringBoot(int id, String name, String email) {
+    public UserClassSpringBoot(Integer id, String name, String email) {
         this.id = id;
         this.name = name;
         this.email = email;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
